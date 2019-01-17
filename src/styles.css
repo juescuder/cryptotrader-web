@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: white;
+}
+
+.tile span{
+    font-size: 15px;
+}
+
+.coinentry{
+/*     -webkit-box-shadow: 7px 10px 50px -19px rgba(0,0,0,0.88);
+    -moz-box-shadow: 7px 10px 50px -19px rgba(0,0,0,0.88);
+    box-shadow: 7px 10px 50px -19px rgba(0,0,0,0.88); */
+    position:relative;
+    
+}
+
+.coin {
+    /* background-color: darkmagenta; */
+    /* background-color: indianred ; */
+    /*border: 1px solid gray;*/
+    /* border-radius: 15px; */
+    color: black;
+
+    /* -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;*/        
+}
+
+.coin img{
+    max-height: 20%;
+    max-width: 50%;
+    float:left;
+    padding-left: 10px;
+}
+
+.exchange {
+    /* background-color: whitesmoke; */
+    /* border-radius: 10px; */
+    color: black;
+
+/*     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
+}
+
+.exchange img {
+    max-height: 25%;
+    max-width: 70%;
+}
