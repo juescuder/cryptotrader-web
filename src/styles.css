@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: teal !important;
 }
 
 .tile span{
@@ -19,7 +19,7 @@ body {
     /* background-color: indianred ; */
     /*border: 1px solid gray;*/
     /* border-radius: 15px; */
-    color: black;
+    color: whitesmoke;
 
     /* -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;

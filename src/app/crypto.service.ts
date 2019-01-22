@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { SymbolModel } from './symbol-model';
 
 @Injectable({
   providedIn: 'root'
@@ -58,11 +60,28 @@ export class CryptoService {
       {
         symbolId: 4,
         symbolName: "BCH"
+      },
+      {
+        symbolId: 5,
+        symbolName: "LTC"
+      },
+      {
+        symbolId: 6,
+        symbolName: "ZEC"
+      },
+      {
+        symbolId: 7,
+        symbolName: "XMR"
+      },
+      {
+        symbolId: 8,
+        symbolName: "ETC"
       }
     ];
   }
 
-  getCoin(symbol) {
+  getCoin(symbol):Observable<any> {
     return this.http.get('https://cryptotrader-api.herokuapp.com/exchange/coin/' + symbol);
+    //return this.http.get('http://localhost:3000/exchange/coin/' + symbol);
   }
 }

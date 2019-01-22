@@ -1,9 +1,9 @@
-<td class="coin">
+<th class="coin">
     <img src="../../assets/images/coins/{{coinItem['symbol'] | lowercase}}.png" class="img-rounded">
-    <span>{{coinItem['symbol']}}</span>
-</td>
-<td>{{coinItem['average']}}</td>
-<td *ngFor="let exc of coinItem['exchanges']" class="exchange">
+    <span><strong>{{coinItem['symbol']}}</strong></span>
+</th>
+<td class="coin"><span>{{coinItem['average']}}</span></td>
+<td *ngFor="let exc of coinItem['exchanges']" class="coin">
     <span><strong>{{exc.price}}</strong></span>
     <br/>
     <span>{{exc.gap}}</span>
