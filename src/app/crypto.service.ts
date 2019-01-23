@@ -39,6 +39,14 @@ export class CryptoService {
       {
         exchangeId: 7,
         exchangeName: "Bitfinex"
+      },
+      {
+        exchangeId: 8,
+        exchangeName: "OKEx"
+      },
+      {
+        exchangeId: 9,
+        exchangeName: "BitZ"
       }
     ];
   }
@@ -76,6 +84,18 @@ export class CryptoService {
       {
         symbolId: 8,
         symbolName: "ETC"
+      },
+      {
+        symbolId: 9,
+        symbolName: "BSV"
+      },
+      {
+        symbolId: 10,
+        symbolName: "TRX"
+      },
+      {
+        symbolId: 11,
+        symbolName: "NEO"
       }
     ];
   }

@@ -4,7 +4,9 @@
 </th>
 <td class="coin"><span>{{coinItem['average']}}</span></td>
 <td *ngFor="let exc of coinItem['exchanges']" class="coin">
-    <span><strong>{{exc.price}}</strong></span>
+    <span>
+        <strong>{{exc.price}}</strong>
+    </span>
     <br/>
-    <span>{{exc.gap}}</span>
+    <span [class.red]="exc.gap > 0" [class.green]="exc.gap <= 0">{{exc.gap}}{{exc.gap != 'N/A' ? '%' : ''}}</span>
 </td>

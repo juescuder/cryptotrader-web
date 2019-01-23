@@ -5,7 +5,7 @@ import { forEach } from '@angular/router/src/utils/collection';
 import { SymbolModel } from '../symbol-model';
 
 @Component({
-  selector: 'app-table',
+  selector: 'div[app-table]',
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.css']
 })
