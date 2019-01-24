@@ -9,6 +9,8 @@ import { TableheaderComponent } from './tableheader/tableheader.component';
 import { TablerowComponent } from './tablerow/tablerow.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { SubheaderComponent } from './subheader/subheader.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     TableComponent,
     TableheaderComponent,
     TablerowComponent,
-    HomeComponent
+    HomeComponent,
+    SubheaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

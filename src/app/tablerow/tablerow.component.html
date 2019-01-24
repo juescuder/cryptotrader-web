@@ -1,11 +1,12 @@
-<th class="coin">
+<th class="coin align-middle">
     <img src="../../assets/images/coins/{{coinItem['symbol'] | lowercase}}.png" class="img-rounded">
-    <span><strong>{{coinItem['symbol']}}</strong></span>
+    <span>{{coinItem['symbol']}}</span>
 </th>
-<td class="coin"><span>{{coinItem['average']}}</span></td>
+<td class="coin align-middle"><span>${{coinItem['average']}}</span></td>
+<td class="coin align-middle"><span>{{coinItem['netGap']}}%</span></td>
 <td *ngFor="let exc of coinItem['exchanges']" class="coin">
     <span>
-        <strong>{{exc.price}}</strong>
+        <strong>{{exc.price != 'N/A' ? '$' : ''}}{{exc.price}}</strong>
     </span>
     <br/>
     <span [class.red]="exc.gap > 0" [class.green]="exc.gap <= 0">{{exc.gap}}{{exc.gap != 'N/A' ? '%' : ''}}</span>

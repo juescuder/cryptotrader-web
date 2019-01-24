@@ -1,7 +1,9 @@
 .green {
     color: greenyellow !important;
+    font-weight: 600;
 }
 
 .red {
-    color: red !important;
+    color: lightcoral  !important;
+    font-weight: 600;
 }

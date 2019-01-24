@@ -1,0 +1,15 @@
+p {
+    color: white !important;
+}
+
+ul {
+    list-style: none;
+    color: white !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+a:link {
+    color: white !important;
+    font-weight: 500;
+}
