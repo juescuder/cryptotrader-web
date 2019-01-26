@@ -101,7 +101,7 @@ export class CryptoService {
   }
 
   getCoin(symbol):Observable<any> {
-    //return this.http.get('https://cryptotrader-api.herokuapp.com/exchange/coin/' + symbol);
-    return this.http.get('http://localhost:3000/exchange/coin/' + symbol);
+    return this.http.get('https://cryptotrader-api.herokuapp.com/exchange/coin/' + symbol);
+    //return this.http.get('http://localhost:3000/exchange/coin/' + symbol);
   }
 }
